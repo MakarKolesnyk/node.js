@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/MakarKolesnyk/node.js/issues"
   },
-  "homepage": "https://github.com/MakarKolesnyk/node.js#readme"
+  "homepage": "https://github.com/MakarKolesnyk/node.js#readme",
+  "dependencies": {
+    "cowsay": "^1.6.0"
+  }
 }
