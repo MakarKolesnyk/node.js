@@ -1,18 +1,12 @@
-const num1 = 5
-const num2 = 8
+import Article from "./Article.mjs";
+import { mult,del,sum} from "./math.mjs";
 
-const mult =(n1, n2)=> n1 *n2
+const num1 = 5;
+const num2 = 8;
 
-console.log(num1+num2);
-console.log(mult(4,9));
+console.log((sumnum1,num2));
+console.log(mult(4, 9));
+console.log(del(45, 9));
 
-class Article {
-    constructor(content){
-        this.content = content
-    }
-    render(){
-        return this.content
-    }
-}
-const newArticle = new Article('content for article')
+const newArticle = new Article("content for article");
 console.log(newArticle.render());
